@@ -1,6 +1,9 @@
+site_name: Marshmallow Generator
+
 theme:
-  name: null
-  custom_dir: mkdocs-material/material
+  name: "material"
+
+#   custom_dir: mkdocs-material/material
 
   # 404 page
   static_templates:
@@ -18,3 +21,7 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+
+plugins:
+- search
+- mkdocstrings
