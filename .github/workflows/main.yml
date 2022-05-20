@@ -1,4 +1,4 @@
-name: mkdocs-material-pages
+name: mkdocs-sapphire
 on:
   push:
     branches:
